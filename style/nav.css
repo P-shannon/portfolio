@@ -1,0 +1,90 @@
+*{
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+body{
+	min-width: 100vw;
+	min-height: 100vh;
+	background: grey;
+	display: flex;
+	flex-direction: row;
+}
+/* Navbar begins here */
+nav{
+	background: yellow;
+	flex:1;
+	min-width: 300px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#navigation-title{
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px; /*Make vertical center*/
+}
+
+#navigation-photo{
+	width: 80%;
+	height: 200px;
+	margin: 0 10%;
+	margin-top: 0;
+}
+
+#navigation-subtitle{
+	width: 80%;
+	height: 80px;
+	margin: 0 10%;
+	margin-top: 0;
+	padding: 5px;
+}
+
+#navigation-container{
+	width: 80%;
+	margin: 0 10%;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#navigation-container a{
+	height: 40px;
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+
+#navigation-contact{
+	width: 80%;
+	height: 120px;
+	margin: 0 10%;
+	display: flex;
+	flex-direction: column;
+}
+
+#navigation-contact h4{
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px; /*Make vertical center*/
+}
+
+#contacts-container{
+	flex: 1;
+	display: flex;
+}
+
+#contacts-container a{
+	flex: 1;
+}
+/* navbar ends here */
+main{
+	background: blue;
+	flex:9
+}
