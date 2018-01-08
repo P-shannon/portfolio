@@ -1,5 +1,6 @@
 *{
-	border: 1px solid black
+	border: 1px solid black;
+	box-sizing: border-box;
 }
 
 body{
@@ -24,6 +25,9 @@ nav{
 	width: 80%;
 	height: 40px;
 	margin: 0 10%;
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px; /*Make vertical center*/
 }
 
 #navigation-photo{
@@ -38,6 +42,7 @@ nav{
 	height: 80px;
 	margin: 0 10%;
 	margin-top: 0;
+	padding: 5px;
 }
 
 #navigation-container{
@@ -50,6 +55,9 @@ nav{
 
 #navigation-container a{
 	height: 40px;
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
 }
 
 #navigation-contact{
@@ -62,6 +70,9 @@ nav{
 
 #navigation-contact h4{
 	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px; /*Make vertical center*/
 }
 
 #contacts-container{
