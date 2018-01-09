@@ -1,0 +1,39 @@
+main {
+	position: relative;
+	padding: 50px 32vw 0 8vw;
+}
+/*The main article and all it's contents*/
+article{
+	background: green;
+}
+
+article h3{
+	height: 50px;
+	font-size: 32px;
+}
+
+article section{
+	padding: 10px;
+}
+
+article p{
+	text-align: justify;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+article div{
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+/* end of article */
+
+/* The skill side piece and all it's contents */
+aside{
+	background: orange;
+	position: fixed;
+	top: 51px; /*??? extra pixel needed for align for some reason*/
+	right: 8vw;
+	width: 20vw;
+}
