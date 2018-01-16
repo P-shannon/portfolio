@@ -1,6 +1,6 @@
 main {
 	position: relative;
-	padding: 50px 32vw 0 8vw;
+	padding: 50px 32vw 0 5vw;
 }
 /*The main article and all it's contents*/
 article{
@@ -26,6 +26,7 @@ article div{
 	width: 250px;
 	height: 250px;
 	float: left;
+	margin-right: 15px;
 }
 /* end of article */
 
@@ -34,6 +35,26 @@ aside{
 	background: orange;
 	position: fixed;
 	top: 51px; /*??? extra pixel needed for align for some reason*/
-	right: 8vw;
-	width: 20vw;
+	right: 5vw;
+	width: 22vw;
+}
+
+aside h3{
+	height: 50px;
+	font-size: 32px;
+}
+
+aside ul{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+aside ul li{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+li{ /*for all lis would be better placed in nav*/
+	margin-left: 15px;
 }
