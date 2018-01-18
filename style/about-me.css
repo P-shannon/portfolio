@@ -10,6 +10,7 @@ article{
 article h3{
 	height: 50px;
 	font-size: 32px;
+	padding: 5px;
 }
 
 article section{
@@ -42,6 +43,7 @@ aside{
 aside h3{
 	height: 50px;
 	font-size: 32px;
+	padding: 5px;
 }
 
 aside ul{
@@ -57,4 +59,5 @@ aside ul li{
 
 li{ /*for all lis would be better placed in nav*/
 	margin-left: 15px;
+	margin-top: 5px;
 }
