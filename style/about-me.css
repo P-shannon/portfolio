@@ -1,0 +1,63 @@
+main {
+	position: relative;
+	padding: 50px 32vw 0 5vw;
+}
+/*The main article and all it's contents*/
+article{
+	background: green;
+}
+
+article h3{
+	height: 50px;
+	font-size: 32px;
+	padding: 5px;
+}
+
+article section{
+	padding: 10px;
+}
+
+article p{
+	text-align: justify;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+article div{
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 15px;
+}
+/* end of article */
+
+/* The skill side piece and all it's contents */
+aside{
+	background: orange;
+	position: fixed;
+	top: 51px; /*??? extra pixel needed for align for some reason*/
+	right: 5vw;
+	width: 22vw;
+}
+
+aside h3{
+	height: 50px;
+	font-size: 32px;
+	padding: 5px;
+}
+
+aside ul{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+aside ul li{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+li{ /*for all lis would be better placed in nav*/
+	margin-left: 15px;
+	margin-top: 5px;
+}
