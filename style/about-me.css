@@ -1,6 +1,8 @@
 main {
 	position: relative;
 	padding: 50px 32vw 0 5vw;
+	height: 100vh;
+	overflow-Y: scroll;
 }
 /*The main article and all it's contents*/
 article{
