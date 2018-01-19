@@ -1,0 +1,56 @@
+main {
+	position: relative;
+	padding: 50px 5vw 0 5vw;
+	height: 100vh;
+	overflow-Y: scroll;
+}
+
+/* Project entries begin here */
+
+section {
+	background: green;
+	margin: 50px 0;
+}
+
+section h3 {
+	background: purple;
+	height: 50px;
+	font-size: 32px;
+	padding: 5px;
+}
+
+section .project-container {
+	display: flex;
+	padding: 25px;
+}
+
+section .project-text {
+	flex: 1;
+}
+
+section .project-thumbnail {
+	background: grey;
+	width: 300px;
+	height: 300px;
+}
+
+/* alternate thumbnail positions */
+section:nth-child(2n) .project-thumbnail {
+	margin-left: 25px;
+}
+
+section:nth-child(2n+1) .project-thumbnail {
+	margin-right: 25px;
+	order: -1;
+}
+
+section .project-text p {
+	margin-bottom: 25px;
+	font-size: 24px;
+}
+
+section .project-text ul li{
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
