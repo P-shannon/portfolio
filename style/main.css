@@ -13,3 +13,22 @@ header div{
 	height: 150px;
 	flex-basis: 35%;
 }
+
+/*main content*/
+main {
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main section {
+	min-width: 300px;
+	max-width: 550px;
+	height: 600px;
+	flex-basis: 60%;
+	margin-top: 20px;
+	margin-right: 20px;
+}
