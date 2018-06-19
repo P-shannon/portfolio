@@ -34,6 +34,14 @@ main section {
 	position: relative;
 }
 
+.section-card {
+	min-width: 200px;
+	min-height: 200px;
+	flex-basis: 34%;
+	margin: 25px;
+	margin-top: 50px;
+}
+
 /*about me*/
 #aboutme-container {
 	display: flex;
@@ -45,12 +53,4 @@ main section {
 #aboutme-container h1 {
 	position: absolute;
 	width: 100%;
-}
-
-.section-card {
-	min-width: 200px;
-	min-height: 200px;
-	flex-basis: 34%;
-	margin: 25px;
-	margin-top: 50px;
 }
