@@ -31,11 +31,11 @@ main section {
 	flex-basis: 60%;
 	margin-top: 20px;
 	margin-right: 20px;
+	position: relative;
 }
 
 /*about me*/
 #aboutme-container {
-	background: yellow;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -43,11 +43,14 @@ main section {
 }
 
 #aboutme-container h1 {
-	position: relative;
+	position: absolute;
+	width: 100%;
 }
 
-#aboutme-container div {
+.section-card {
 	min-width: 200px;
-	min-height: 300px;
-	flex-basis: 36%;
+	min-height: 200px;
+	flex-basis: 34%;
+	margin: 25px;
+	margin-top: 50px;
 }
