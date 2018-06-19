@@ -32,3 +32,22 @@ main section {
 	margin-top: 20px;
 	margin-right: 20px;
 }
+
+/*about me*/
+#aboutme-container {
+	background: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+#aboutme-container h1 {
+	position: relative;
+}
+
+#aboutme-container div {
+	min-width: 200px;
+	min-height: 300px;
+	flex-basis: 36%;
+}
