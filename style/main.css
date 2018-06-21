@@ -29,19 +29,22 @@ header div{
 	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
-	padding-top: 7%;
+	padding: auto;
 }
 
 #title-container h2 {
-	font-size: 1.2em;
+	font-size: 4.2vw;
+	display: inline;
 }
 
 #title-container h3 {
-	font-size: 1em;
+	font-size: 3.6vw;
+	display: inline;
 }
 
 #title-container hr {
-	margin: 4px;
+	margin: 4px auto;
+	width: 75%;
 }
 
 /*main content*/
