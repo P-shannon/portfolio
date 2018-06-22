@@ -47,6 +47,17 @@ header div{
 	width: 75%;
 }
 
+#contact-container ul {
+	position: absolute;
+	bottom: 4vh;
+	right: 0;
+}
+
+#contact-container li {
+	list-style-type: none;
+	font-size: 2.6vw;
+	margin: 1.2vh;
+}
 /*main content*/
 main {
 	width: 100vw;
