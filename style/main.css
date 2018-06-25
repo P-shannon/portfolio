@@ -85,11 +85,14 @@ main section {
 	margin: 12px;
 	margin-top: 50px;
 	background: green;
+	padding: 12px;
+	text-align: justify;
 }
 
 .project-card {
 	display: block;
 	position: relative;
+	padding: 0px;
 }
 
 /*about me & projects*/
