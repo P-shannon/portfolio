@@ -66,6 +66,7 @@ main {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	background: black;
 }
 
 main section {
@@ -75,6 +76,7 @@ main section {
 	flex-basis: 60%;
 	margin: 20px;
 	position: relative;
+	background: white;
 }
 
 .section-card {
