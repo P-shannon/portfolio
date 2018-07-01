@@ -125,4 +125,8 @@ main section {
 	main {
 		font-size: 15px;
 	}
+
+	main section {
+		max-width: 625px;
+	}
 }
