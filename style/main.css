@@ -132,6 +132,13 @@ main section {
 	}
 
 	main section {
-		max-width: 625px;
+		flex-basis: 80%;
 	}
 }
+
+@media (max-width: 912px){
+	#aboutme-container, #projects-container {
+		justify-content: center;
+	}
+}
+
