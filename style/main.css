@@ -120,3 +120,9 @@ main section {
 .project-card:hover p {
 	opacity: 1;
 }
+
+@media (min-resolution: 200dpi){
+	main {
+		font-size: 15px;
+	}
+}
