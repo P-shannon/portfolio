@@ -66,27 +66,30 @@ main {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	background: black;
 }
 
 main section {
 	min-width: 300px;
 	max-width: 550px;
-	min-height: 600px;
 	flex-basis: 60%;
 	margin: 20px;
 	position: relative;
+	background: white;
 }
 
 .section-card {
-	width: 200px;
-	height: 200px;
-	margin: 25px;
-	margin-top: 50px;
+	width: 250px;
+	height: 250px;
+	margin: 12px;
+	background: green;
+	padding: 12px;
 }
 
 .project-card {
 	display: block;
 	position: relative;
+	padding: 0px;
 }
 
 /*about me & projects*/
@@ -98,8 +101,16 @@ main section {
 }
 
 #aboutme-container h1, #projects-container h1 {
-	position: absolute;
 	width: 100%;
+}
+
+/*about me*/
+#aboutme-bio p{
+	text-align: justify;
+}
+
+#aboutme-container ul {
+	padding-left: 18px;
 }
 
 /*projects*/
@@ -114,3 +125,20 @@ main section {
 .project-card:hover p {
 	opacity: 1;
 }
+
+@media (min-resolution: 200dpi){
+	main {
+		font-size: 15px;
+	}
+
+	main section {
+		flex-basis: 80%;
+	}
+}
+
+@media (max-width: 912px){
+	#aboutme-container, #projects-container {
+		justify-content: center;
+	}
+}
+
