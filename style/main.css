@@ -4,7 +4,9 @@
 header {
 	width: 100vw;
 	height: 100vh;
-	background: gray;
+	background: linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url("../src/img/hero.jpg");
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
