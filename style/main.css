@@ -92,6 +92,7 @@ main section {
 	display: block;
 	position: relative;
 	padding: 0px;
+	color: white;
 }
 
 /*about me & projects*/
@@ -116,9 +117,6 @@ main section {
 }
 
 /*projects*/
-.project-card {
-	color: white;
-}
 
 .project-card h2 {
 	text-align: center;
@@ -162,6 +160,10 @@ main section {
 }
 
 @media (min-resolution: 200dpi){
+	.project-card p {
+		opacity: 1;
+	}
+	
 	main {
 		font-size: 15px;
 	}
