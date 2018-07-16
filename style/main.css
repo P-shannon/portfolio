@@ -108,6 +108,12 @@ main section {
 }
 
 /*about me*/
+#aboutme-photos {
+	background: url("../src/img/avatar.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
 #aboutme-bio p{
 	text-align: justify;
 }
