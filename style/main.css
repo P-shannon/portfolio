@@ -123,6 +123,29 @@ main section {
 	background: grey;
 }
 
+#project-calc {
+	background: url("../src/img/calculator.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#project-astro {
+	background: url("../src/img/astronautics.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#project-rpg {
+	background: url("../src/img/rpgtechdemo.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#project-zenbin {
+	background: url("../src/img/zenbin.png");
+	background-position: center;
+	background-size: cover;
+}
 /* NOTE: This hurts mobile UX, add breakpoint */
 .project-card:hover p {
 	opacity: 1;
