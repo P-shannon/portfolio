@@ -4,7 +4,9 @@
 header {
 	width: 100vw;
 	height: 100vh;
-	background: gray;
+	background: linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url("../src/img/hero.jpg");
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -90,6 +92,7 @@ main section {
 	display: block;
 	position: relative;
 	padding: 0px;
+	color: white;
 }
 
 /*about me & projects*/
@@ -105,6 +108,12 @@ main section {
 }
 
 /*about me*/
+#aboutme-photos {
+	background: url("../src/img/avatar.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
 #aboutme-bio p{
 	text-align: justify;
 }
@@ -114,19 +123,53 @@ main section {
 }
 
 /*projects*/
+
+.project-card h2 {
+	text-align: center;
+	text-decoration: none;
+	background: rgba(0,0,0,0.6);
+}
+
 .project-card p {
 	position: absolute;
 	bottom: 0;
 	opacity: 0;
-	background: grey;
+	background: rgba(0,0,0,0.6);
 }
 
+#project-calc {
+	background: url("../src/img/calculator.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#project-astro {
+	background: url("../src/img/astronautics.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#project-rpg {
+	background: url("../src/img/rpgtechdemo.png");
+	background-position: center;
+	background-size: cover;
+}
+
+#project-zenbin {
+	background: url("../src/img/zenbin.png");
+	background-position: center;
+	background-size: cover;
+}
 /* NOTE: This hurts mobile UX, add breakpoint */
 .project-card:hover p {
 	opacity: 1;
 }
 
 @media (min-resolution: 200dpi){
+	.project-card p {
+		opacity: 1;
+	}
+	
 	main {
 		font-size: 15px;
 	}
