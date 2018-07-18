@@ -160,6 +160,13 @@ main section {
 	background-position: center;
 	background-size: cover;
 }
+
+#project-elementary {
+	background: url("../src/img/elementaryio.png");
+	background-position: center;
+	background-size: cover;
+}
+
 /* NOTE: This hurts mobile UX, add breakpoint */
 .project-card:hover p {
 	opacity: 1;
